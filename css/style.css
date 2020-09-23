@@ -1,0 +1,444 @@
+/*
+ author:Tanvir Rumman;
+ Email:rtanvir@live.com;
+ Website:;
+/*
+
+/*
+ =========index=========
+ 	
+ 	1.Header
+ 	2.Fusce at 
+ 	3.Facilisis
+ 	4.Ante donec
+ 	5.Blandit rhoncus
+ 	6.Placerat
+ 	7.Footer
+
+/*
+
+/* Global CSS */
+
+
+@font-face {
+font-family: 'Myriad Pro Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Myriad Pro Regular'), url('MYRIADPRO-REGULAR.woff') format('woff');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700;900&family=Roboto:wght@300;400&display=swap');
+
+body{
+
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Slab', serif;
+}
+
+
+
+.img-center{
+	display: block;
+	margin: 0 auto;
+
+}
+
+.no-padding{
+	padding: 0px;
+}
+
+h1{
+
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+h6{
+
+}
+
+p{
+
+}
+
+.cstm-btn-one{
+	background: #fff;
+	color: #6c3226;
+	border-radius: 30px;
+	display: block;
+	margin: 0 auto;
+	padding: 6px 16px;
+	border: none;
+	padding: 9px 24px;
+	font-size: 18px;
+}
+
+.cstm-btn-two{
+	background: #fff;
+	color: #4e5159;
+	border-radius: 30px;
+	display: block;
+	margin: 0 auto;
+	padding: 6px 16px;
+	border: none;
+	padding: 9px 24px;
+	font-size: 18px;
+	font-weight: 300;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+}
+
+/* custom theme css */
+
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+.nav-head{
+	background-color: #edeff1!important;
+	padding: 25px 0px;
+	left: 0;
+	
+}
+
+
+.nav-link{
+	color: #31353e!important;
+	
+}
+
+
+.nav-link.js-scroll-trigger:active{
+	background-color: red!important;
+	padding: 4px 8px;
+	color: #fff;
+	border-radius: 5px;
+}
+
+
+/*hero section*/
+
+.hero{
+	background:url(../img/banner.jpg)no-repeat center top;
+	background-size: cover;
+	background-color: rgb(0, 0, 0,.5);
+    background-blend-mode: overlay;
+	padding: 150px 0px;
+}
+
+.banner-title{
+	text-align: center;
+}
+
+.banner-title h2{
+	color: #fff;
+	font-size: 72px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+}
+
+.banner-title h4{
+	color: #fff;
+	font-size: 30px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 300;
+}
+
+.banner-item{
+	padding-top: 105px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.banner-item h3{
+	color: #fff;
+	font-size: 30px;
+}
+
+.banner-item p{
+	color: #fff;
+	font-size: 15px;
+}
+
+
+.news{
+	padding: 120px 0px; 
+	background-color: #edeff1;
+}
+
+.news-title{
+	text-align: center;
+}
+
+.news-title h2{
+	font-size: 30px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+	padding: 20px 0px;
+}
+
+.news-item{
+	text-align: center;
+
+}
+
+.news-item h3{
+	margin-top: 20px;
+	font-size: 24px;
+	color: #31353e;
+	font-family: 'Roboto Slab', serif;
+}
+
+.news-item p{
+	font-size: 15px;
+	font-weight: 300;
+	color: #3e414a;
+	font-family: 'Roboto', sans-serif;
+	padding: 0px 30px;
+    line-height: 2;
+}
+
+
+
+.newsletter{
+ 	background: url(../img/newsletter.jpg)no-repeat center top;
+ 	background-size: cover;
+ 	background-color: rgb(0, 0, 0,.3);
+    background-blend-mode: overlay;
+ 	padding: 80px 0px;
+}
+
+.newsletter-title{
+	text-align: center;
+}
+
+.newsletter-title h2{
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.newsletter-title p{
+	color: #fff;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.news-form{
+
+}
+
+.form-control{
+	border-radius: 20px;
+    background: transparent;
+    padding: 6px 24px;
+    position: relative;
+}
+
+.btn-newsletter{
+	background: #fff;
+	border: none;
+	padding: 6px 41px;
+	border-radius: 20px;
+	position: absolute;
+	right: 13px;
+	top: 1px;
+	color: darkred;
+}
+
+.blandit-content{
+
+}
+
+.blandit-content-one{
+	padding: 160px 0px;
+	box-sizing: border-box;
+}
+
+.blandit-content-one h2{
+	color: #191b29;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.blandit-content-one p{
+	color: #191b29;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+
+.blandit-btn-one{
+	background: #dd4b2b;
+	border: none;
+	border-radius: 20px;
+	color: #fff;
+	padding: 10px 60px;
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+
+.blandit-btn-two{
+	background: #4b4e73;
+	border: none;
+	border-radius: 20px;
+	color: #fff;
+	padding: 10px 60px;
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.placerat-content{
+	background: #d75d0e;
+     padding: 80px 0px;
+}
+
+
+.placerat-content-one{
+	text-align: center;
+
+   
+}
+
+.placerat-content-one p{
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+footer{
+	background:url(../img/newsletter.jpg)no-repeat center top;
+	background-size: cover;
+	background-color: rgb(0, 0, 0,.3);
+    background-blend-mode: overlay;
+	padding: 100px 0px;
+	
+}
+
+.footer-content{
+	margin: 0 auto;
+}
+
+.footer-content p{
+	color: white;
+    font-weight: 400;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Myriad Pro Regular';
+}
+
+
+/*Media quary*/
+
+/*Mobile device*/
+
+
+@media(max-width:600px){
+	
+    .cstm-btn-two {
+    background: #fff;
+    color: #4e5159;
+    border-radius: 30px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    padding: 9px 24px;
+    font-weight: 300;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+}
+
+.blandit-content-one {
+    padding: 160px 0px;
+    box-sizing: border-box;
+    text-align: center;
+	}
+
+	.placerat-content-one p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px 0px;
+	}
+
+
+
+}
+
+/*small Device*/
+
+@media(min-width:600.1px) and (max-width:768px){
+    
+	.blandit-content-one {
+    padding: 160px 0px;
+    box-sizing: border-box;
+    text-align: center;
+	}
+
+	.cstm-btn-two {
+    background: #fff;
+    color: #4e5159;
+    border-radius: 30px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    padding: 9px 24px;
+    font-weight: 300;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+	}
+
+	.placerat-content-one p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px 0px;
+	}
+
+}
+
+
+/*Medium Device*/
+
+
+@media(min-width:768.1px) and (max-width:992px){
+
+	
+
+}
+
+/*Large Device*/
+
+@media(min-width:992.1px) and (max-width:1200px){
+	
+}
+
+
+/*Extra Large*/
+
+@media(min-width:1200.1px){
+    
+}
+
+/*Custom Device*/
+
+@media(min-width:576px) and (768px){
+    
+}
